@@ -163,23 +163,5 @@ print(classifier("I love learning NLP!"))
 
 ---
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Explore the examples and answer the questions!
-
----
-
-## Contributing
-Feel free to enhance the examples or add new questions.
-
----
-
 ## License
 This repository is licensed under the MIT License.
