@@ -1,0 +1,114 @@
+
+
+This document provides answers to the questions posed in the "NLP Tasks - Quick Guide" README.
+
+Tokenization
+
+Question
+
+How are sentences split into tokens in this example?
+
+Answer
+
+The word_tokenize function splits the text into individual words and punctuation marks, treating them as separate tokens.
+
+Stemming
+
+Question
+
+What effect does stemming have on inflected words?
+
+Answer
+
+Stemming reduces inflected words to their root form but may not produce valid words (e.g., "running" becomes "run").
+
+Lemmatization
+
+Question
+
+How does lemmatization handle different parts of speech?
+
+Answer
+
+Lemmatization uses a vocabulary and morphological analysis to convert words to their base or dictionary form, depending on the specified part of speech.
+
+Stop Word Removal
+
+Question
+
+Why is it important to remove stop words in NLP tasks?
+
+Answer
+
+Stop words are common words (e.g., "is," "the") that do not carry significant meaning and are removed to focus on more informative words in the text.
+
+Part-of-Speech (POS) Tagging
+
+Question
+
+How do POS tags help in understanding the grammatical structure of a sentence?
+
+Answer
+
+POS tags identify the role of each word (e.g., noun, verb) in a sentence, helping to analyze its grammatical structure and relationships.
+
+Named Entity Recognition (NER)
+
+Question
+
+What types of entities are identified in the given text?
+
+Answer
+
+NER identifies entities such as persons (e.g., "Barack Obama"), locations (e.g., "United States"), and organizations, among others, in the text.
+
+Dependency Parsing
+
+Question
+
+How does dependency parsing represent the relationships between words?
+
+Answer
+
+Dependency parsing identifies grammatical relationships between words, showing which words are governed by others (e.g., subject and object of a verb).
+
+Bag-of-Words (BoW)
+
+Question
+
+What information does the Bag-of-Words representation capture about the text?
+
+Answer
+
+BoW captures the frequency of words in a text but does not consider word order or context.
+
+TF-IDF
+
+Question
+
+How does TF-IDF weigh the importance of terms in a document?
+
+Answer
+
+TF-IDF assigns a higher weight to words that are frequent in a document but rare across the corpus, highlighting their significance.
+
+Word Embeddings
+
+Question
+
+How do word embeddings capture semantic relationships between words?
+
+Answer
+
+Word embeddings represent words as vectors in a continuous space, capturing semantic relationships by placing similar words closer together.
+
+Transformers
+
+Question
+
+What advantages do transformer-based models like BERT offer over traditional methods?
+
+Answer
+
+Transformers handle long-range dependencies and context more effectively, enabling state-of-the-art performance in many NLP tasks.
+
