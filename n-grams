@@ -1,0 +1,6 @@
+from nltk import ngrams
+
+text = "I love NLP."
+tokens = text.split()
+bigrams = list(ngrams(tokens, 2))
+print("Bigrams:", bigrams)
