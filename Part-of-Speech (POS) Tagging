@@ -1,0 +1,7 @@
+from nltk import pos_tag
+from nltk.tokenize import word_tokenize
+
+text = "I love coding."
+words = word_tokenize(text)
+pos_tags = pos_tag(words)
+print("POS Tags:", pos_tags)
