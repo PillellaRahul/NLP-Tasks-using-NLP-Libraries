@@ -1,0 +1,8 @@
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+
+ps = PorterStemmer()
+lemmatizer = WordNetLemmatizer()
+
+word = "running"
+print("Stemmed:", ps.stem(word))
+print("Lemmatized:", lemmatizer.lemmatize(word, pos='v'))
