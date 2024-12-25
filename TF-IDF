@@ -1,0 +1,7 @@
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+texts = ["I love NLP", "NLP is fun"]
+tfidf_vectorizer = TfidfVectorizer()
+tfidf = tfidf_vectorizer.fit_transform(texts)
+
+print("TF-IDF Matrix:\n", tfidf.toarray())
