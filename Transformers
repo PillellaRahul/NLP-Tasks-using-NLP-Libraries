@@ -1,0 +1,6 @@
+from transformers import pipeline
+
+text = "I love learning about NLP."
+classifier = pipeline("sentiment-analysis")
+result = classifier(text)
+print("Sentiment Analysis Result:", result)
